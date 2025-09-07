@@ -1,0 +1,12 @@
+{
+  "id": 15,
+  "topic": "bash-scripting-robust-error-handling",
+  "category": "cache",
+  "lastUpdated": "2026-09-05T17:01:43.283Z",
+  "bestPractices": [
+    "Always sanitize parameters before execution",
+    "Monitor latency and throughput metrics under peak loads",
+    "Follow standardized Conventional Commits specification"
+  ],
+  "revision": 15
+}
