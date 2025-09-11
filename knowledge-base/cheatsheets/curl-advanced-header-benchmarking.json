@@ -1,5 +1,5 @@
 {
-  "id": 33,
+  "id": 84,
   "topic": "curl-advanced-header-benchmarking",
   "category": "engine",
   "lastUpdated": "2026-09-05T17:01:43.283Z",
@@ -8,5 +8,5 @@
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 33
+  "revision": 84
 }
