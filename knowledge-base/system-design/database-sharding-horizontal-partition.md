@@ -1,6 +1,6 @@
 # Architecture Specification: DATABASE SHARDING HORIZONTAL PARTITION
 
-## 1. Overview (Revision #83)
+## 1. Overview (Revision #116)
 This component is part of the high-availability distributed architecture specifications.
 
 ## 2. Key Characteristics
@@ -9,5 +9,5 @@ This component is part of the high-availability distributed architecture specifi
 - **Data Integrity**: Enforced through write-ahead logs and idempotent retry keys.
 
 ## 3. Implementation Checkpoint
-- Step: #83
+- Step: #116
 - Verified by: Freda
