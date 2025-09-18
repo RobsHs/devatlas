@@ -1,12 +1,12 @@
 {
-  "id": 123,
+  "id": 174,
   "topic": "docker-compose-multi-container",
-  "category": "rfc",
+  "category": "typings",
   "lastUpdated": "2026-09-05T17:01:43.283Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 123
+  "revision": 174
 }
