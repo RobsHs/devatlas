@@ -1,12 +1,12 @@
 {
-  "id": 120,
+  "id": 171,
   "topic": "git-rebase-interactive-squash",
-  "category": "cheatsheet",
+  "category": "architecture",
   "lastUpdated": "2026-09-05T17:01:43.283Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 120
+  "revision": 171
 }
