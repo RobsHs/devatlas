@@ -1,12 +1,12 @@
 {
-  "id": 144,
+  "id": 195,
   "topic": "linux-iptables-firewall-rules",
-  "category": "sorting",
-  "lastUpdated": "2026-09-05T17:01:43.283Z",
+  "category": "cache",
+  "lastUpdated": "2026-09-05T17:01:43.284Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 144
+  "revision": 195
 }
