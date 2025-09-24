@@ -1,12 +1,12 @@
 {
-  "id": 228,
+  "id": 279,
   "topic": "linux-systemd-service-unit",
-  "category": "cheatsheet",
-  "lastUpdated": "2026-09-05T17:01:43.286Z",
+  "category": "allocations",
+  "lastUpdated": "2026-09-05T17:01:43.288Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 228
+  "revision": 279
 }
