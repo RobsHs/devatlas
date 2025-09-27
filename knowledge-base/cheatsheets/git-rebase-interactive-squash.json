@@ -1,12 +1,12 @@
 {
-  "id": 273,
+  "id": 324,
   "topic": "git-rebase-interactive-squash",
-  "category": "dsa",
+  "category": "api-specs",
   "lastUpdated": "2026-09-05T17:01:43.288Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 273
+  "revision": 324
 }
