@@ -1,12 +1,12 @@
 {
-  "id": 312,
+  "id": 363,
   "topic": "docker-healthcheck-configuration",
-  "category": "e2e",
-  "lastUpdated": "2026-09-05T17:01:43.288Z",
+  "category": "readme",
+  "lastUpdated": "2026-09-05T17:01:43.289Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 312
+  "revision": 363
 }
