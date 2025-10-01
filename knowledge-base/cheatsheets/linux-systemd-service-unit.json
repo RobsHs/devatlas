@@ -1,12 +1,12 @@
 {
-  "id": 330,
+  "id": 381,
   "topic": "linux-systemd-service-unit",
-  "category": "concurrency",
-  "lastUpdated": "2026-09-05T17:01:43.289Z",
+  "category": "graphs",
+  "lastUpdated": "2026-09-05T17:01:43.290Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 330
+  "revision": 381
 }
