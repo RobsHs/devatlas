@@ -1,12 +1,12 @@
 {
-  "id": 438,
+  "id": 489,
   "topic": "regex-lookahead-lookbehind-assertions",
-  "category": "trees",
+  "category": "core",
   "lastUpdated": "2026-09-05T17:01:43.294Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 438
+  "revision": 489
 }
