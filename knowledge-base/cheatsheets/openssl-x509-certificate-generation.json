@@ -1,12 +1,12 @@
 {
-  "id": 459,
+  "id": 510,
   "topic": "openssl-x509-certificate-generation",
-  "category": "modules",
+  "category": "api-specs",
   "lastUpdated": "2026-09-05T17:01:43.294Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 459
+  "revision": 510
 }
