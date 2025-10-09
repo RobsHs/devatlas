@@ -1,18 +1,18 @@
 /**
  * DevAtlas - BINARY HEAP PRIORITY QUEUE
- * Version Iteration: 373
+ * Version Iteration: 505
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_373 {
+export class Solution_505 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 72];
-    const result = Solution_373.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 4];
+    const result = Solution_505.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
