@@ -1,12 +1,12 @@
 {
-  "id": 552,
+  "id": 603,
   "topic": "linux-iptables-firewall-rules",
-  "category": "rfc",
+  "category": "core",
   "lastUpdated": "2026-09-05T17:01:43.295Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 552
+  "revision": 603
 }
