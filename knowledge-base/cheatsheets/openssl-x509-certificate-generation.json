@@ -1,5 +1,5 @@
 {
-  "id": 714,
+  "id": 765,
   "topic": "openssl-x509-certificate-generation",
   "category": "patterns",
   "lastUpdated": "2026-09-05T17:01:43.296Z",
@@ -8,5 +8,5 @@
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 714
+  "revision": 765
 }
