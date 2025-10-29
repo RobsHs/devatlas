@@ -1,18 +1,18 @@
 /**
  * DevAtlas - EXTENDED EUCLIDEAN GCD
- * Version Iteration: 646
+ * Version Iteration: 778
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_646 {
+export class Solution_778 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 45];
-    const result = Solution_646.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 77];
+    const result = Solution_778.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
