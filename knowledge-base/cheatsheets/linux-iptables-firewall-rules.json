@@ -1,5 +1,5 @@
 {
-  "id": 807,
+  "id": 858,
   "topic": "linux-iptables-firewall-rules",
   "category": "patterns",
   "lastUpdated": "2026-09-05T17:01:43.297Z",
@@ -8,5 +8,5 @@
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 807
+  "revision": 858
 }
