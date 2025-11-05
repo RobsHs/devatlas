@@ -1,12 +1,12 @@
 {
-  "id": 831,
+  "id": 882,
   "topic": "bash-scripting-robust-error-handling",
-  "category": "allocations",
-  "lastUpdated": "2026-09-05T17:01:43.297Z",
+  "category": "memory",
+  "lastUpdated": "2026-09-05T17:01:43.304Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 831
+  "revision": 882
 }
