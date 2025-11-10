@@ -1,6 +1,6 @@
 # Architecture Specification: KUBERNETES POD HORIZONTAL AUTOSCALING
 
-## 1. Overview (Revision #920)
+## 1. Overview (Revision #953)
 This component is part of the high-availability distributed architecture specifications.
 
 ## 2. Key Characteristics
@@ -9,5 +9,5 @@ This component is part of the high-availability distributed architecture specifi
 - **Data Integrity**: Enforced through write-ahead logs and idempotent retry keys.
 
 ## 3. Implementation Checkpoint
-- Step: #920
+- Step: #953
 - Verified by: Freda
