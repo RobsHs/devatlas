@@ -1,18 +1,18 @@
 /**
  * DevAtlas - FIBONACCI HEAP
- * Version Iteration: 814
+ * Version Iteration: 946
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_814 {
+export class Solution_946 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 13];
-    const result = Solution_814.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 45];
+    const result = Solution_946.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
