@@ -1,12 +1,12 @@
 {
-  "id": 981,
+  "id": 1032,
   "topic": "postgres-btree-gin-indexing",
-  "category": "dsa",
+  "category": "cheatsheet",
   "lastUpdated": "2026-09-05T17:01:43.312Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 981
+  "revision": 1032
 }
