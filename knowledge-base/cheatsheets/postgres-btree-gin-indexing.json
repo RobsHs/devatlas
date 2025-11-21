@@ -1,12 +1,12 @@
 {
-  "id": 1083,
+  "id": 1134,
   "topic": "postgres-btree-gin-indexing",
-  "category": "architecture",
+  "category": "system-design",
   "lastUpdated": "2026-09-05T17:01:43.312Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 1083
+  "revision": 1134
 }
