@@ -1,12 +1,12 @@
 {
-  "id": 1179,
+  "id": 1230,
   "topic": "docker-healthcheck-configuration",
-  "category": "api",
+  "category": "engine",
   "lastUpdated": "2026-09-05T17:01:43.313Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 1179
+  "revision": 1230
 }
