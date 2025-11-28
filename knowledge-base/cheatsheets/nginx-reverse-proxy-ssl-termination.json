@@ -1,12 +1,12 @@
 {
-  "id": 1200,
+  "id": 1251,
   "topic": "nginx-reverse-proxy-ssl-termination",
-  "category": "cheatsheet",
+  "category": "dsa",
   "lastUpdated": "2026-09-05T17:01:43.313Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 1200
+  "revision": 1251
 }
