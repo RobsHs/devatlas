@@ -1,12 +1,12 @@
 {
-  "id": 1287,
+  "id": 1338,
   "topic": "postgres-btree-gin-indexing",
-  "category": "allocations",
+  "category": "e2e",
   "lastUpdated": "2026-09-05T17:01:43.316Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 1287
+  "revision": 1338
 }
