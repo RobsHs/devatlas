@@ -1,12 +1,12 @@
 {
-  "id": 1368,
+  "id": 1419,
   "topic": "linux-iptables-firewall-rules",
-  "category": "dsa",
+  "category": "rfc",
   "lastUpdated": "2026-09-05T17:01:43.316Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 1368
+  "revision": 1419
 }
