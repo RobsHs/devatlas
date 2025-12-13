@@ -1,18 +1,18 @@
 /**
  * DevAtlas - MILLER RABIN PRIMALITY
- * Version Iteration: 1303
+ * Version Iteration: 1435
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_1303 {
+export class Solution_1435 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 2];
-    const result = Solution_1303.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 34];
+    const result = Solution_1435.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
