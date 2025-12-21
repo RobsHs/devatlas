@@ -1,5 +1,5 @@
 {
-  "id": 1473,
+  "id": 1524,
   "topic": "postgres-explain-analyze-query-plan",
   "category": "sorting",
   "lastUpdated": "2026-09-05T17:01:43.316Z",
@@ -8,5 +8,5 @@
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 1473
+  "revision": 1524
 }
