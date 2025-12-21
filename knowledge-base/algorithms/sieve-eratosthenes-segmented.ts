@@ -1,18 +1,18 @@
 /**
  * DevAtlas - SIEVE ERATOSTHENES SEGMENTED
- * Version Iteration: 1393
+ * Version Iteration: 1525
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_1393 {
+export class Solution_1525 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 92];
-    const result = Solution_1393.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 24];
+    const result = Solution_1525.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
