@@ -1,12 +1,12 @@
 {
-  "id": 1515,
+  "id": 1566,
   "topic": "git-bisect-debugging-regressions",
-  "category": "trees",
+  "category": "typings",
   "lastUpdated": "2026-09-05T17:01:43.316Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 1515
+  "revision": 1566
 }
