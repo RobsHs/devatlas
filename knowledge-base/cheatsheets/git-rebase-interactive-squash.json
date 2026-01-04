@@ -1,12 +1,12 @@
 {
-  "id": 1650,
+  "id": 1701,
   "topic": "git-rebase-interactive-squash",
-  "category": "trees",
-  "lastUpdated": "2026-09-05T17:01:43.317Z",
+  "category": "api",
+  "lastUpdated": "2026-09-05T17:01:43.318Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 1650
+  "revision": 1701
 }
