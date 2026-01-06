@@ -1,6 +1,6 @@
 # Architecture Specification: SAGA ORCHESTRATION MICROSERVICES
 
-## 1. Overview (Revision #1697)
+## 1. Overview (Revision #1730)
 This component is part of the high-availability distributed architecture specifications.
 
 ## 2. Key Characteristics
@@ -9,5 +9,5 @@ This component is part of the high-availability distributed architecture specifi
 - **Data Integrity**: Enforced through write-ahead logs and idempotent retry keys.
 
 ## 3. Implementation Checkpoint
-- Step: #1697
+- Step: #1730
 - Verified by: Freda
