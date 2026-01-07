@@ -1,12 +1,12 @@
 {
-  "id": 1701,
+  "id": 1752,
   "topic": "git-rebase-interactive-squash",
-  "category": "api",
+  "category": "rfc",
   "lastUpdated": "2026-09-05T17:01:43.318Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 1701
+  "revision": 1752
 }
