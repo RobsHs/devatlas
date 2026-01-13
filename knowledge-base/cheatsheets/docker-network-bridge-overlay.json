@@ -1,5 +1,5 @@
 {
-  "id": 1773,
+  "id": 1824,
   "topic": "docker-network-bridge-overlay",
   "category": "api",
   "lastUpdated": "2026-09-05T17:01:43.319Z",
@@ -8,5 +8,5 @@
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 1773
+  "revision": 1824
 }
