@@ -1,12 +1,12 @@
 {
-  "id": 1893,
+  "id": 1944,
   "topic": "docker-healthcheck-configuration",
-  "category": "memory",
-  "lastUpdated": "2026-09-05T17:01:43.321Z",
+  "category": "concurrency",
+  "lastUpdated": "2026-09-05T17:01:43.322Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 1893
+  "revision": 1944
 }
