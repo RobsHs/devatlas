@@ -1,18 +1,18 @@
 /**
  * DevAtlas - FENWICK TREE BINARY INDEXED
- * Version Iteration: 1810
+ * Version Iteration: 1942
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_1810 {
+export class Solution_1942 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 9];
-    const result = Solution_1810.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 41];
+    const result = Solution_1942.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
