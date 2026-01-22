@@ -1,5 +1,5 @@
 {
-  "id": 1935,
+  "id": 1986,
   "topic": "regex-catastrophic-backtracking-prevention",
   "category": "engine",
   "lastUpdated": "2026-09-05T17:01:43.322Z",
@@ -8,5 +8,5 @@
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 1935
+  "revision": 1986
 }
