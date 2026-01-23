@@ -1,12 +1,12 @@
 {
-  "id": 1959,
+  "id": 2010,
   "topic": "docker-compose-multi-container",
-  "category": "patterns",
+  "category": "system-design",
   "lastUpdated": "2026-09-05T17:01:43.322Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 1959
+  "revision": 2010
 }
