@@ -1,12 +1,12 @@
 {
-  "id": 1980,
+  "id": 2031,
   "topic": "linux-iptables-firewall-rules",
-  "category": "rfc",
+  "category": "patterns",
   "lastUpdated": "2026-09-05T17:01:43.322Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 1980
+  "revision": 2031
 }
