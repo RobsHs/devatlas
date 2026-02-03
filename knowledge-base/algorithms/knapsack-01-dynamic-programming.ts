@@ -1,18 +1,18 @@
 /**
  * DevAtlas - KNAPSACK 01 DYNAMIC PROGRAMMING
- * Version Iteration: 2011
+ * Version Iteration: 2143
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_2011 {
+export class Solution_2143 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 10];
-    const result = Solution_2011.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 42];
+    const result = Solution_2143.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
