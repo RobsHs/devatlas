@@ -1,12 +1,12 @@
 {
-  "id": 2187,
+  "id": 2238,
   "topic": "postgres-explain-analyze-query-plan",
-  "category": "concurrency",
-  "lastUpdated": "2026-09-05T17:01:43.325Z",
+  "category": "api",
+  "lastUpdated": "2026-09-05T17:01:43.326Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 2187
+  "revision": 2238
 }
