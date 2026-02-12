@@ -1,18 +1,18 @@
 /**
  * DevAtlas - BLOOM FILTER
- * Version Iteration: 2164
+ * Version Iteration: 2296
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_2164 {
+export class Solution_2296 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 63];
-    const result = Solution_2164.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 95];
+    const result = Solution_2296.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
