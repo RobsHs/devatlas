@@ -1,12 +1,12 @@
 {
-  "id": 2301,
+  "id": 2352,
   "topic": "docker-healthcheck-configuration",
-  "category": "concurrency",
-  "lastUpdated": "2026-09-05T17:01:43.326Z",
+  "category": "rfc",
+  "lastUpdated": "2026-09-05T17:01:43.327Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 2301
+  "revision": 2352
 }
