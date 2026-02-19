@@ -1,18 +1,18 @@
 /**
  * DevAtlas - WORD BREAK MEMOIZATION
- * Version Iteration: 2281
+ * Version Iteration: 2413
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_2281 {
+export class Solution_2413 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 80];
-    const result = Solution_2281.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 12];
+    const result = Solution_2413.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
