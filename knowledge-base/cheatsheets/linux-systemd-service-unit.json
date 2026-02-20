@@ -1,12 +1,12 @@
 {
-  "id": 2370,
+  "id": 2421,
   "topic": "linux-systemd-service-unit",
-  "category": "core",
-  "lastUpdated": "2026-09-05T17:01:43.327Z",
+  "category": "engine",
+  "lastUpdated": "2026-09-05T17:01:43.330Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 2370
+  "revision": 2421
 }
