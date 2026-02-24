@@ -1,18 +1,18 @@
 /**
  * DevAtlas - LONGEST INCREASING SUBSEQUENCE
- * Version Iteration: 2365
+ * Version Iteration: 2497
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_2365 {
+export class Solution_2497 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 64];
-    const result = Solution_2365.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 96];
+    const result = Solution_2497.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
