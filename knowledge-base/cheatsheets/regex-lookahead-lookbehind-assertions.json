@@ -1,12 +1,12 @@
 {
-  "id": 2478,
+  "id": 2529,
   "topic": "regex-lookahead-lookbehind-assertions",
-  "category": "cheatsheet",
+  "category": "dsa",
   "lastUpdated": "2026-09-05T17:01:43.330Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 2478
+  "revision": 2529
 }
