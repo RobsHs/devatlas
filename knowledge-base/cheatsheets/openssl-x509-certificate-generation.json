@@ -1,12 +1,12 @@
 {
-  "id": 2601,
+  "id": 2652,
   "topic": "openssl-x509-certificate-generation",
-  "category": "api",
+  "category": "dsa",
   "lastUpdated": "2026-09-05T17:01:43.331Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 2601
+  "revision": 2652
 }
