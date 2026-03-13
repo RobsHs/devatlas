@@ -1,18 +1,18 @@
 /**
  * DevAtlas - TRAVELLING SALESPERSON BITMASK
- * Version Iteration: 2596
+ * Version Iteration: 2728
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_2596 {
+export class Solution_2728 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 95];
-    const result = Solution_2596.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 27];
+    const result = Solution_2728.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
