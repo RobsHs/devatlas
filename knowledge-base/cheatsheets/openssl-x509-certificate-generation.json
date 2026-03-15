@@ -1,12 +1,12 @@
 {
-  "id": 2703,
+  "id": 2754,
   "topic": "openssl-x509-certificate-generation",
-  "category": "graphs",
+  "category": "readme",
   "lastUpdated": "2026-09-05T17:01:43.331Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 2703
+  "revision": 2754
 }
