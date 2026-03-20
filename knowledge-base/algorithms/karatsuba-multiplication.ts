@@ -1,18 +1,18 @@
 /**
  * DevAtlas - KARATSUBA MULTIPLICATION
- * Version Iteration: 2710
+ * Version Iteration: 2842
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_2710 {
+export class Solution_2842 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 9];
-    const result = Solution_2710.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 41];
+    const result = Solution_2842.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
