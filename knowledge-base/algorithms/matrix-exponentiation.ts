@@ -1,18 +1,18 @@
 /**
  * DevAtlas - MATRIX EXPONENTIATION
- * Version Iteration: 2797
+ * Version Iteration: 2929
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_2797 {
+export class Solution_2929 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 96];
-    const result = Solution_2797.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 28];
+    const result = Solution_2929.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
