@@ -1,12 +1,12 @@
 {
-  "id": 2901,
+  "id": 2952,
   "topic": "postgres-explain-analyze-query-plan",
-  "category": "complexity",
+  "category": "e2e",
   "lastUpdated": "2026-09-05T17:01:43.333Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 2901
+  "revision": 2952
 }
