@@ -1,12 +1,12 @@
 {
-  "id": 2973,
+  "id": 3024,
   "topic": "bash-scripting-robust-error-handling",
-  "category": "patterns",
-  "lastUpdated": "2026-09-05T17:01:43.333Z",
+  "category": "architecture",
+  "lastUpdated": "2026-09-05T17:01:43.334Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 2973
+  "revision": 3024
 }
