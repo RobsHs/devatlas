@@ -1,12 +1,12 @@
 {
-  "id": 2991,
+  "id": 3042,
   "topic": "curl-advanced-header-benchmarking",
-  "category": "core",
-  "lastUpdated": "2026-09-05T17:01:43.333Z",
+  "category": "concurrency",
+  "lastUpdated": "2026-09-05T17:01:43.340Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 2991
+  "revision": 3042
 }
