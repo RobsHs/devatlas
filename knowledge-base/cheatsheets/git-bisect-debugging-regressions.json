@@ -1,12 +1,12 @@
 {
-  "id": 3045,
+  "id": 3096,
   "topic": "git-bisect-debugging-regressions",
-  "category": "memory",
+  "category": "allocations",
   "lastUpdated": "2026-09-05T17:01:43.340Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 3045
+  "revision": 3096
 }
