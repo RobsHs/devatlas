@@ -1,12 +1,12 @@
 {
-  "id": 3057,
+  "id": 3108,
   "topic": "regex-catastrophic-backtracking-prevention",
-  "category": "rfc",
+  "category": "api",
   "lastUpdated": "2026-09-05T17:01:43.340Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 3057
+  "revision": 3108
 }
