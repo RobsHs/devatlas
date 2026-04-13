@@ -1,12 +1,12 @@
 {
-  "id": 3150,
+  "id": 3201,
   "topic": "docker-network-bridge-overlay",
-  "category": "memory",
+  "category": "graphs",
   "lastUpdated": "2026-09-05T17:01:43.341Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 3150
+  "revision": 3201
 }
