@@ -1,6 +1,6 @@
 # Architecture Specification: ROUND ROBIN LOAD BALANCER
 
-## 1. Overview (Revision #3275)
+## 1. Overview (Revision #3308)
 This component is part of the high-availability distributed architecture specifications.
 
 ## 2. Key Characteristics
@@ -9,5 +9,5 @@ This component is part of the high-availability distributed architecture specifi
 - **Data Integrity**: Enforced through write-ahead logs and idempotent retry keys.
 
 ## 3. Implementation Checkpoint
-- Step: #3275
+- Step: #3308
 - Verified by: Freda
