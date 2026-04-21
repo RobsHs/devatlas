@@ -1,12 +1,12 @@
 {
-  "id": 3258,
+  "id": 3309,
   "topic": "postgres-explain-analyze-query-plan",
-  "category": "sorting",
+  "category": "interfaces",
   "lastUpdated": "2026-09-05T17:01:43.342Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 3258
+  "revision": 3309
 }
