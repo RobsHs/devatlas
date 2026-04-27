@@ -1,5 +1,5 @@
 {
-  "id": 3336,
+  "id": 3387,
   "topic": "docker-compose-multi-container",
   "category": "sorting",
   "lastUpdated": "2026-09-05T17:01:43.343Z",
@@ -8,5 +8,5 @@
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 3336
+  "revision": 3387
 }
