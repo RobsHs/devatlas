@@ -1,18 +1,18 @@
 /**
  * DevAtlas - PRIM MST DENSE GRAPHS
- * Version Iteration: 3274
+ * Version Iteration: 3406
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_3274 {
+export class Solution_3406 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 73];
-    const result = Solution_3274.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 5];
+    const result = Solution_3406.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
