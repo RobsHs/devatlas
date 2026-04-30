@@ -1,12 +1,12 @@
 {
-  "id": 3396,
+  "id": 3447,
   "topic": "regex-lookahead-lookbehind-assertions",
-  "category": "graphs",
-  "lastUpdated": "2026-09-05T17:01:43.343Z",
+  "category": "api",
+  "lastUpdated": "2026-09-05T17:01:43.344Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 3396
+  "revision": 3447
 }
