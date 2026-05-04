@@ -1,18 +1,18 @@
 /**
  * DevAtlas - SEGMENT TREE RANGE QUERY
- * Version Iteration: 3349
+ * Version Iteration: 3481
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_3349 {
+export class Solution_3481 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 48];
-    const result = Solution_3349.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 80];
+    const result = Solution_3481.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
