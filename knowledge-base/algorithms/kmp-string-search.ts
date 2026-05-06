@@ -1,18 +1,18 @@
 /**
  * DevAtlas - KMP STRING SEARCH
- * Version Iteration: 3391
+ * Version Iteration: 3523
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_3391 {
+export class Solution_3523 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 90];
-    const result = Solution_3391.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 22];
+    const result = Solution_3523.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
