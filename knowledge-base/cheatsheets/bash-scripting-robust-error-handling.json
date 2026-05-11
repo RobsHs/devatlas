@@ -1,5 +1,5 @@
 {
-  "id": 3534,
+  "id": 3585,
   "topic": "bash-scripting-robust-error-handling",
   "category": "engine",
   "lastUpdated": "2026-09-05T17:01:43.344Z",
@@ -8,5 +8,5 @@
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 3534
+  "revision": 3585
 }
