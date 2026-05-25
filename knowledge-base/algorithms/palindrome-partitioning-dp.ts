@@ -1,18 +1,18 @@
 /**
  * DevAtlas - PALINDROME PARTITIONING DP
- * Version Iteration: 3646
+ * Version Iteration: 3778
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_3646 {
+export class Solution_3778 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 45];
-    const result = Solution_3646.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 77];
+    const result = Solution_3778.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
