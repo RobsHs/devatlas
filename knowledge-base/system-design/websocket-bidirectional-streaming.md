@@ -1,6 +1,6 @@
 # Architecture Specification: WEBSOCKET BIDIRECTIONAL STREAMING
 
-## 1. Overview (Revision #3818)
+## 1. Overview (Revision #3851)
 This component is part of the high-availability distributed architecture specifications.
 
 ## 2. Key Characteristics
@@ -9,5 +9,5 @@ This component is part of the high-availability distributed architecture specifi
 - **Data Integrity**: Enforced through write-ahead logs and idempotent retry keys.
 
 ## 3. Implementation Checkpoint
-- Step: #3818
+- Step: #3851
 - Verified by: Freda
