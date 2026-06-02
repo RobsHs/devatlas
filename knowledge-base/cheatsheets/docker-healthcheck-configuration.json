@@ -1,12 +1,12 @@
 {
-  "id": 3831,
+  "id": 3882,
   "topic": "docker-healthcheck-configuration",
-  "category": "trees",
+  "category": "dp",
   "lastUpdated": "2026-09-05T17:01:43.345Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 3831
+  "revision": 3882
 }
