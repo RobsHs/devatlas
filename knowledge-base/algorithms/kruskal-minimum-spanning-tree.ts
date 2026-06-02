@@ -1,18 +1,18 @@
 /**
  * DevAtlas - KRUSKAL MINIMUM SPANNING TREE
- * Version Iteration: 3757
+ * Version Iteration: 3889
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_3757 {
+export class Solution_3889 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 56];
-    const result = Solution_3757.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 88];
+    const result = Solution_3889.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
