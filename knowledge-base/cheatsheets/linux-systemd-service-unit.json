@@ -1,12 +1,12 @@
 {
-  "id": 3900,
+  "id": 3951,
   "topic": "linux-systemd-service-unit",
-  "category": "dsa",
+  "category": "interfaces",
   "lastUpdated": "2026-09-05T17:01:43.345Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 3900
+  "revision": 3951
 }
