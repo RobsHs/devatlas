@@ -1,12 +1,12 @@
 {
-  "id": 3954,
+  "id": 4005,
   "topic": "nginx-reverse-proxy-ssl-termination",
   "category": "api-specs",
-  "lastUpdated": "2026-09-05T17:01:43.345Z",
+  "lastUpdated": "2026-09-05T17:01:43.346Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 3954
+  "revision": 4005
 }
