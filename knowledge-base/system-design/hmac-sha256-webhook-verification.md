@@ -1,6 +1,6 @@
 # Architecture Specification: HMAC SHA256 WEBHOOK VERIFICATION
 
-## 1. Overview (Revision #4085)
+## 1. Overview (Revision #4118)
 This component is part of the high-availability distributed architecture specifications.
 
 ## 2. Key Characteristics
@@ -9,5 +9,5 @@ This component is part of the high-availability distributed architecture specifi
 - **Data Integrity**: Enforced through write-ahead logs and idempotent retry keys.
 
 ## 3. Implementation Checkpoint
-- Step: #4085
+- Step: #4118
 - Verified by: Freda
