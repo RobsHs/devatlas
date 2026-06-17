@@ -1,12 +1,12 @@
 {
-  "id": 4083,
+  "id": 4134,
   "topic": "git-reflog-commit-recovery",
-  "category": "dsa",
+  "category": "e2e",
   "lastUpdated": "2026-09-05T17:01:43.346Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 4083
+  "revision": 4134
 }
