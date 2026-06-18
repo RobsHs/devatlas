@@ -1,12 +1,12 @@
 {
-  "id": 4116,
+  "id": 4167,
   "topic": "git-bisect-debugging-regressions",
-  "category": "complexity",
+  "category": "dsa",
   "lastUpdated": "2026-09-05T17:01:43.346Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 4116
+  "revision": 4167
 }
