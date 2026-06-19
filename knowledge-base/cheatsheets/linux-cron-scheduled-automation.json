@@ -1,12 +1,12 @@
 {
-  "id": 4140,
+  "id": 4191,
   "topic": "linux-cron-scheduled-automation",
-  "category": "core",
+  "category": "sorting",
   "lastUpdated": "2026-09-05T17:01:43.346Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 4140
+  "revision": 4191
 }
