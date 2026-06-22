@@ -1,18 +1,18 @@
 /**
  * DevAtlas - MATRIX CHAIN ORDER
- * Version Iteration: 4084
+ * Version Iteration: 4216
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_4084 {
+export class Solution_4216 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 83];
-    const result = Solution_4084.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 15];
+    const result = Solution_4216.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
