@@ -1,6 +1,6 @@
 # Architecture Specification: WRITE THROUGH CACHING STRATEGY
 
-## 1. Overview (Revision #4325)
+## 1. Overview (Revision #4358)
 This component is part of the high-availability distributed architecture specifications.
 
 ## 2. Key Characteristics
@@ -9,5 +9,5 @@ This component is part of the high-availability distributed architecture specifi
 - **Data Integrity**: Enforced through write-ahead logs and idempotent retry keys.
 
 ## 3. Implementation Checkpoint
-- Step: #4325
+- Step: #4358
 - Verified by: Freda
