@@ -1,18 +1,18 @@
 /**
  * DevAtlas - TRAPPING RAIN WATER TWO POINTERS
- * Version Iteration: 4219
+ * Version Iteration: 4351
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_4219 {
+export class Solution_4351 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 18];
-    const result = Solution_4219.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 50];
+    const result = Solution_4351.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
