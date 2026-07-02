@@ -1,6 +1,6 @@
 # Architecture Specification: PAXOS DISTRIBUTED CONSENSUS
 
-## 1. Overview (Revision #4367)
+## 1. Overview (Revision #4400)
 This component is part of the high-availability distributed architecture specifications.
 
 ## 2. Key Characteristics
@@ -9,5 +9,5 @@ This component is part of the high-availability distributed architecture specifi
 - **Data Integrity**: Enforced through write-ahead logs and idempotent retry keys.
 
 ## 3. Implementation Checkpoint
-- Step: #4367
+- Step: #4400
 - Verified by: Freda
