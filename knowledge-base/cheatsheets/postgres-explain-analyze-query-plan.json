@@ -1,12 +1,12 @@
 {
-  "id": 4482,
+  "id": 4533,
   "topic": "postgres-explain-analyze-query-plan",
-  "category": "allocations",
-  "lastUpdated": "2026-09-05T17:01:43.349Z",
+  "category": "sorting",
+  "lastUpdated": "2026-09-05T17:01:43.350Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 4482
+  "revision": 4533
 }
