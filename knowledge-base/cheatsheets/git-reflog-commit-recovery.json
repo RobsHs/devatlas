@@ -1,12 +1,12 @@
 {
-  "id": 4491,
+  "id": 4542,
   "topic": "git-reflog-commit-recovery",
-  "category": "rfc",
-  "lastUpdated": "2026-09-05T17:01:43.349Z",
+  "category": "complexity",
+  "lastUpdated": "2026-09-05T17:01:43.350Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 4491
+  "revision": 4542
 }
