@@ -1,12 +1,12 @@
 {
-  "id": 4527,
+  "id": 4578,
   "topic": "docker-network-bridge-overlay",
-  "category": "core",
+  "category": "rfc",
   "lastUpdated": "2026-09-05T17:01:43.350Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 4527
+  "revision": 4578
 }
