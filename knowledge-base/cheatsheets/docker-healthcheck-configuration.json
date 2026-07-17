@@ -1,5 +1,5 @@
 {
-  "id": 4545,
+  "id": 4596,
   "topic": "docker-healthcheck-configuration",
   "category": "engine",
   "lastUpdated": "2026-09-05T17:01:43.350Z",
@@ -8,5 +8,5 @@
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 4545
+  "revision": 4596
 }
