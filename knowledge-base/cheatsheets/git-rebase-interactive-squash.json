@@ -1,12 +1,12 @@
 {
-  "id": 4557,
+  "id": 4608,
   "topic": "git-rebase-interactive-squash",
-  "category": "cheatsheet",
+  "category": "engine",
   "lastUpdated": "2026-09-05T17:01:43.350Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 4557
+  "revision": 4608
 }
