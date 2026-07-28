@@ -1,12 +1,12 @@
 {
-  "id": 4728,
+  "id": 4779,
   "topic": "git-bisect-debugging-regressions",
-  "category": "readme",
-  "lastUpdated": "2026-09-05T17:01:43.355Z",
+  "category": "sorting",
+  "lastUpdated": "2026-09-05T17:01:43.356Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 4728
+  "revision": 4779
 }
