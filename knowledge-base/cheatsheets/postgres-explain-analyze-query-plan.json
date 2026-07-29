@@ -1,12 +1,12 @@
 {
-  "id": 4737,
+  "id": 4788,
   "topic": "postgres-explain-analyze-query-plan",
-  "category": "engine",
-  "lastUpdated": "2026-09-05T17:01:43.355Z",
+  "category": "api-specs",
+  "lastUpdated": "2026-09-05T17:01:43.356Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 4737
+  "revision": 4788
 }
