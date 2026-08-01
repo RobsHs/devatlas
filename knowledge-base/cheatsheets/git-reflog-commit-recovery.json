@@ -1,12 +1,12 @@
 {
-  "id": 4797,
+  "id": 4848,
   "topic": "git-reflog-commit-recovery",
-  "category": "patterns",
-  "lastUpdated": "2026-09-05T17:01:43.357Z",
+  "category": "readme",
+  "lastUpdated": "2026-09-05T17:01:43.358Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 4797
+  "revision": 4848
 }
