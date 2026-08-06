@@ -1,12 +1,12 @@
 {
-  "id": 4866,
+  "id": 4917,
   "topic": "docker-compose-multi-container",
-  "category": "engine",
-  "lastUpdated": "2026-09-05T17:01:43.358Z",
+  "category": "cheatsheet",
+  "lastUpdated": "2026-09-05T17:01:43.359Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 4866
+  "revision": 4917
 }
