@@ -1,18 +1,18 @@
 /**
  * DevAtlas - RED BLACK TREE BALANCING
- * Version Iteration: 4807
+ * Version Iteration: 4939
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_4807 {
+export class Solution_4939 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 6];
-    const result = Solution_4807.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 38];
+    const result = Solution_4939.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
