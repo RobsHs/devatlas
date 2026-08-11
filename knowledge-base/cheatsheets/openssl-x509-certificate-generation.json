@@ -1,5 +1,5 @@
 {
-  "id": 4947,
+  "id": 4998,
   "topic": "openssl-x509-certificate-generation",
   "category": "dsa",
   "lastUpdated": "2026-09-05T17:01:43.360Z",
@@ -8,5 +8,5 @@
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 4947
+  "revision": 4998
 }
