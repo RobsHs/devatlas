@@ -1,12 +1,12 @@
 {
-  "id": 5079,
+  "id": 5130,
   "topic": "regex-lookahead-lookbehind-assertions",
-  "category": "core",
+  "category": "concurrency",
   "lastUpdated": "2026-09-05T17:01:43.361Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 5079
+  "revision": 5130
 }
