@@ -1,12 +1,12 @@
 {
-  "id": 5070,
+  "id": 5121,
   "topic": "docker-compose-multi-container",
-  "category": "e2e",
+  "category": "patterns",
   "lastUpdated": "2026-09-05T17:01:43.361Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 5070
+  "revision": 5121
 }
