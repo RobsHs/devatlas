@@ -1,18 +1,18 @@
 /**
  * DevAtlas - B PLUS TREE INDEXING
- * Version Iteration: 5029
+ * Version Iteration: 5161
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_5029 {
+export class Solution_5161 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 28];
-    const result = Solution_5029.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 60];
+    const result = Solution_5161.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
