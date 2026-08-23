@@ -1,12 +1,12 @@
 {
-  "id": 5136,
+  "id": 5187,
   "topic": "git-bisect-debugging-regressions",
-  "category": "patterns",
-  "lastUpdated": "2026-09-05T17:01:43.361Z",
+  "category": "modules",
+  "lastUpdated": "2026-09-05T17:01:43.362Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 5136
+  "revision": 5187
 }
