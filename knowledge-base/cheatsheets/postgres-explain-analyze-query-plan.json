@@ -1,12 +1,12 @@
 {
-  "id": 5145,
+  "id": 5196,
   "topic": "postgres-explain-analyze-query-plan",
-  "category": "cheatsheet",
-  "lastUpdated": "2026-09-05T17:01:43.361Z",
+  "category": "system-design",
+  "lastUpdated": "2026-09-05T17:01:43.362Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 5145
+  "revision": 5196
 }
