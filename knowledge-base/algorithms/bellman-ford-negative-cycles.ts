@@ -1,18 +1,18 @@
 /**
  * DevAtlas - BELLMAN FORD NEGATIVE CYCLES
- * Version Iteration: 5074
+ * Version Iteration: 5206
  * Standard Complexity: O(log n) to O(n log n)
  */
 
-export class Solution_5074 {
+export class Solution_5206 {
   static execute(input: number[]): number[] {
     const copy = [...input];
     return copy.sort((a, b) => a - b);
   }
 
   static verify(): boolean {
-    const sample = [9, 3, 7, 1, 5, 73];
-    const result = Solution_5074.execute(sample);
+    const sample = [9, 3, 7, 1, 5, 5];
+    const result = Solution_5206.execute(sample);
     return result[0] <= result[result.length - 1];
   }
 }
