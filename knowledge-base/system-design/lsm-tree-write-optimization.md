@@ -1,6 +1,6 @@
 # Architecture Specification: LSM TREE WRITE OPTIMIZATION
 
-## 1. Overview (Revision #5201)
+## 1. Overview (Revision #5234)
 This component is part of the high-availability distributed architecture specifications.
 
 ## 2. Key Characteristics
@@ -9,5 +9,5 @@ This component is part of the high-availability distributed architecture specifi
 - **Data Integrity**: Enforced through write-ahead logs and idempotent retry keys.
 
 ## 3. Implementation Checkpoint
-- Step: #5201
+- Step: #5234
 - Verified by: Freda
