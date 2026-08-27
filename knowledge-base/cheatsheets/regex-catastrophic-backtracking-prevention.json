@@ -1,12 +1,12 @@
 {
-  "id": 5199,
+  "id": 5250,
   "topic": "regex-catastrophic-backtracking-prevention",
-  "category": "typings",
+  "category": "core",
   "lastUpdated": "2026-09-05T17:01:43.362Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 5199
+  "revision": 5250
 }
