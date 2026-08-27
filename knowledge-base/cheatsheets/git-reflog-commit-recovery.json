@@ -1,12 +1,12 @@
 {
-  "id": 5205,
+  "id": 5256,
   "topic": "git-reflog-commit-recovery",
-  "category": "dsa",
+  "category": "trees",
   "lastUpdated": "2026-09-05T17:01:43.362Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 5205
+  "revision": 5256
 }
