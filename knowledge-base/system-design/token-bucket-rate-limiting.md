@@ -1,6 +1,6 @@
 # Architecture Specification: TOKEN BUCKET RATE LIMITING
 
-## 1. Overview (Revision #5219)
+## 1. Overview (Revision #5252)
 This component is part of the high-availability distributed architecture specifications.
 
 ## 2. Key Characteristics
@@ -9,5 +9,5 @@ This component is part of the high-availability distributed architecture specifi
 - **Data Integrity**: Enforced through write-ahead logs and idempotent retry keys.
 
 ## 3. Implementation Checkpoint
-- Step: #5219
+- Step: #5252
 - Verified by: Freda
