@@ -1,6 +1,6 @@
 # Architecture Specification: ELK CENTRALIZED LOGGING PIPELINE
 
-## 1. Overview (Revision #5246)
+## 1. Overview (Revision #5279)
 This component is part of the high-availability distributed architecture specifications.
 
 ## 2. Key Characteristics
@@ -9,5 +9,5 @@ This component is part of the high-availability distributed architecture specifi
 - **Data Integrity**: Enforced through write-ahead logs and idempotent retry keys.
 
 ## 3. Implementation Checkpoint
-- Step: #5246
+- Step: #5279
 - Verified by: Freda
