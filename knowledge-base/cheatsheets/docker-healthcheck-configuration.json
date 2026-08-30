@@ -1,12 +1,12 @@
 {
-  "id": 5259,
+  "id": 5310,
   "topic": "docker-healthcheck-configuration",
-  "category": "dsa",
-  "lastUpdated": "2026-09-05T17:01:43.362Z",
+  "category": "cache",
+  "lastUpdated": "2026-09-05T17:01:43.367Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 5259
+  "revision": 5310
 }
