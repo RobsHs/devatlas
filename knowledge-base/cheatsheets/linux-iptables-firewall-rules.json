@@ -1,12 +1,12 @@
 {
-  "id": 5346,
+  "id": 5397,
   "topic": "linux-iptables-firewall-rules",
-  "category": "cheatsheet",
-  "lastUpdated": "2026-09-05T17:01:43.367Z",
+  "category": "api-specs",
+  "lastUpdated": "2026-09-05T17:01:43.368Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 5346
+  "revision": 5397
 }
