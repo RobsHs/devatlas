@@ -131,4 +131,4 @@ Any contributions you make are **greatly appreciated**!
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-Maintained with ❤️ by **Freda** ([@RobsHs](https://github.com/RobsHs)).
+Maintained with ❤️ by **RobsHs** ([@RobsHs](https://github.com/RobsHs)).
