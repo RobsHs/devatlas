@@ -41,7 +41,7 @@ class RoundRobinLoadBalancer {
   }
 
   removeServer(server) {
-    this.servers = this.servers.filter(s => s !== server);
+    this.servers = this.servers.filter((s) => s !== server);
     if (this.currentIndex >= this.servers.length) {
       this.currentIndex = 0;
     }
@@ -66,14 +66,14 @@ class CacheAsideService {
   async get(key) {
     const cached = this.cache.get(key);
     if (cached && cached.expiry > Date.now()) {
-      return { data: cached.value, source: 'cache' };
+      return { data: cached.value, source: "cache" };
     }
 
     const value = await this.db.read(key);
     if (value !== undefined) {
       this.cache.set(key, { value, expiry: Date.now() + this.ttl });
     }
-    return { data: value, source: 'database' };
+    return { data: value, source: "database" };
   }
 
   async set(key, value) {
@@ -85,22 +85,23 @@ class CacheAsideService {
 const SystemDesignKnowledge = {
   capTheorem: {
     name: "CAP Theorem",
-    definition: "A distributed system can only guarantee at most two of: Consistency, Availability, and Partition Tolerance.",
+    definition:
+      "A distributed system can only guarantee at most two of: Consistency, Availability, and Partition Tolerance.",
     tradeoffs: {
       CP: "Prioritizes consistency over availability during network partitions (e.g., HBase, MongoDB, Redis Cluster).",
-      AP: "Prioritizes availability over consistency during network partitions (e.g., Cassandra, DynamoDB, CouchDB)."
-    }
+      AP: "Prioritizes availability over consistency during network partitions (e.g., Cassandra, DynamoDB, CouchDB).",
+    },
   },
   acidVsBase: {
     name: "ACID vs BASE",
     acid: "Atomicity, Consistency, Isolation, Durability (Relational DBs like PostgreSQL, MySQL)",
-    base: "Basically Available, Soft state, Eventual consistency (NoSQL, Distributed Key-Value)"
-  }
+    base: "Basically Available, Soft state, Eventual consistency (NoSQL, Distributed Key-Value)",
+  },
 };
 
 module.exports = {
   TokenBucket,
   RoundRobinLoadBalancer,
   CacheAsideService,
-  SystemDesignKnowledge
+  SystemDesignKnowledge,
 };

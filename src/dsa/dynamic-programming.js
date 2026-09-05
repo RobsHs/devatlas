@@ -27,7 +27,7 @@ const DynamicProgramming = {
         if (weights[i - 1] <= w) {
           dp[i][w] = Math.max(
             values[i - 1] + dp[i - 1][w - weights[i - 1]],
-            dp[i - 1][w]
+            dp[i - 1][w],
           );
         } else {
           dp[i][w] = dp[i - 1][w];
@@ -93,16 +93,18 @@ const DynamicProgramming = {
         if (s1[i - 1] === s2[j - 1]) {
           dp[i][j] = dp[i - 1][j - 1];
         } else {
-          dp[i][j] = 1 + Math.min(
-            dp[i - 1][j],    // Deletion
-            dp[i][j - 1],    // Insertion
-            dp[i - 1][j - 1] // Substitution
-          );
+          dp[i][j] =
+            1 +
+            Math.min(
+              dp[i - 1][j], // Deletion
+              dp[i][j - 1], // Insertion
+              dp[i - 1][j - 1], // Substitution
+            );
         }
       }
     }
     return dp[m][n];
-  }
+  },
 };
 
 module.exports = DynamicProgramming;

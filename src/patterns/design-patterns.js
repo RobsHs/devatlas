@@ -17,11 +17,11 @@ class Singleton {
 class NotificationFactory {
   static create(type) {
     switch (type.toLowerCase()) {
-      case 'email':
+      case "email":
         return { send: (msg) => `[Email] Sent: ${msg}` };
-      case 'sms':
+      case "sms":
         return { send: (msg) => `[SMS] Sent: ${msg}` };
-      case 'push':
+      case "push":
         return { send: (msg) => `[Push] Sent: ${msg}` };
       default:
         throw new Error(`Unsupported notification type: ${type}`);
@@ -32,7 +32,7 @@ class NotificationFactory {
 // 3. Builder Pattern
 class RequestConfigBuilder {
   constructor() {
-    this.config = { method: 'GET', headers: {}, timeout: 5000 };
+    this.config = { method: "GET", headers: {}, timeout: 5000 };
   }
 
   setMethod(method) {
@@ -76,7 +76,7 @@ class EventEmitter {
 
   off(event, callback) {
     if (!this.listeners.has(event)) return;
-    const filtered = this.listeners.get(event).filter(cb => cb !== callback);
+    const filtered = this.listeners.get(event).filter((cb) => cb !== callback);
     this.listeners.set(event, filtered);
   }
 
@@ -99,21 +99,21 @@ class PaymentProcessor {
   }
 
   pay(amount) {
-    if (!this.strategy) throw new Error('No payment strategy configured');
+    if (!this.strategy) throw new Error("No payment strategy configured");
     return this.strategy.process(amount);
   }
 }
 
 const PaymentStrategies = {
   CreditCard: {
-    process: (amount) => `Charged $${amount} via Credit Card`
+    process: (amount) => `Charged $${amount} via Credit Card`,
   },
   PayPal: {
-    process: (amount) => `Charged $${amount} via PayPal`
+    process: (amount) => `Charged $${amount} via PayPal`,
   },
   Crypto: {
-    process: (amount) => `Transferred $${amount} via USDT/ETH`
-  }
+    process: (amount) => `Transferred $${amount} via USDT/ETH`,
+  },
 };
 
 module.exports = {
@@ -122,5 +122,5 @@ module.exports = {
   RequestConfigBuilder,
   EventEmitter,
   PaymentProcessor,
-  PaymentStrategies
+  PaymentStrategies,
 };

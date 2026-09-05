@@ -84,7 +84,7 @@ const SearchingAlgorithms = {
     }
 
     return -1;
-  }
+  },
 };
 
 module.exports = SearchingAlgorithms;

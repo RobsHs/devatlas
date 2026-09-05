@@ -209,7 +209,7 @@ class Graph {
       const current = queue.shift();
       result.push(current);
 
-      this.adjacencyList[current].forEach(neighbor => {
+      this.adjacencyList[current].forEach((neighbor) => {
         if (!visited[neighbor.node]) {
           visited[neighbor.node] = true;
           queue.push(neighbor.node);
@@ -228,7 +228,7 @@ class Graph {
       if (!vertex) return;
       visited[vertex] = true;
       result.push(vertex);
-      adj[vertex].forEach(neighbor => {
+      adj[vertex].forEach((neighbor) => {
         if (!visited[neighbor.node]) {
           return dfsHelper(neighbor.node);
         }
@@ -244,5 +244,5 @@ module.exports = {
   BinarySearchTree,
   Trie,
   LRUCache,
-  Graph
+  Graph,
 };

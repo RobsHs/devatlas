@@ -75,6 +75,7 @@ Start the local server (zero `npm install` needed!):
 ```bash
 npm start
 ```
+
 Open your browser at `http://localhost:3000`.
 
 ### 3. Run the CLI Tool
@@ -101,15 +102,15 @@ npm test
 
 ## 📊 Big-O Complexity Matrix
 
-| Algorithm / Structure | Best Time | Average Time | Worst Time | Space Complexity |
-| :--- | :--- | :--- | :--- | :--- |
-| **QuickSort** | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$ | $O(\log n)$ |
-| **MergeSort** | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n)$ |
-| **HeapSort** | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(1)$ |
-| **Binary Search** | $O(1)$ | $O(\log n)$ | $O(\log n)$ | $O(1)$ |
-| **Binary Search Tree**| $O(\log n)$ | $O(\log n)$ | $O(n)$ | $O(n)$ |
-| **LRU Cache (Get/Put)**| $O(1)$ | $O(1)$ | $O(1)$ | $O(n)$ |
-| **Trie (Insert/Search)**| $O(L)$ | $O(L)$ | $O(L)$ | $O(A \times L)$ |
+| Algorithm / Structure    | Best Time     | Average Time  | Worst Time    | Space Complexity |
+| :----------------------- | :------------ | :------------ | :------------ | :--------------- |
+| **QuickSort**            | $O(n \log n)$ | $O(n \log n)$ | $O(n^2)$      | $O(\log n)$      |
+| **MergeSort**            | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(n)$           |
+| **HeapSort**             | $O(n \log n)$ | $O(n \log n)$ | $O(n \log n)$ | $O(1)$           |
+| **Binary Search**        | $O(1)$        | $O(\log n)$   | $O(\log n)$   | $O(1)$           |
+| **Binary Search Tree**   | $O(\log n)$   | $O(\log n)$   | $O(n)$        | $O(n)$           |
+| **LRU Cache (Get/Put)**  | $O(1)$        | $O(1)$        | $O(1)$        | $O(n)$           |
+| **Trie (Insert/Search)** | $O(L)$        | $O(L)$        | $O(L)$        | $O(A \times L)$  |
 
 ---
 

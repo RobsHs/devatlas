@@ -166,7 +166,7 @@ const SortingAlgorithms = {
       }
     }
     return result;
-  }
+  },
 };
 
 module.exports = SortingAlgorithms;
