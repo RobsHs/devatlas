@@ -1,0 +1,30 @@
+{
+  "name": "devatlas",
+  "version": "1.0.0",
+  "description": "Open-Source Developer Knowledge, Computer Science Algorithms, System Design & Utility Engine",
+  "main": "src/index.js",
+  "bin": {
+    "devatlas": "./bin/devatlas.js"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/run-tests.js",
+    "cli": "node bin/devatlas.js",
+    "generate-commits": "node scripts/commit-engine.js"
+  },
+  "keywords": [
+    "algorithms",
+    "data-structures",
+    "computer-science",
+    "system-design",
+    "cheatsheets",
+    "developer-tools",
+    "benchmarks"
+  ],
+  "author": "Freda <fredapacitan@gmail.com>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
+

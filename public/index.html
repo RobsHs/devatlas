@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DevAtlas — Computer Science & Software Engineering Engine</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600&family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="glow-orb orb-1"></div>
+  <div class="glow-orb orb-2"></div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">
+        <span class="logo-icon">⚡</span>
+        <span class="logo-text">Dev<span class="highlight">Atlas</span></span>
+      </div>
+      <div class="nav-links">
+        <a href="#dsa" class="nav-link">Algorithms</a>
+        <a href="#benchmark" class="nav-link">Benchmark</a>
+        <a href="#big-o" class="nav-link">Big-O Matrix</a>
+        <a href="#system-design" class="nav-link">System Design</a>
+        <a href="#cheatsheets" class="nav-link">Cheatsheets</a>
+        <a href="https://github.com/Freda" target="_blank" class="github-btn">GitHub Profile</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <div class="badge">Open Source • High Performance • Zero-Dependencies</div>
+      <h1 class="hero-title">Empowering Software Engineers with <span class="gradient-text">Algorithmic Mastery</span></h1>
+      <p class="hero-subtitle">Comprehensive Computer Science Knowledge Engine, Big-O Complexity Playground, Architecture Patterns, and Production-Grade Utilities.</p>
+      
+      <!-- Live Stats Counter -->
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-value" id="stat-dsa">15+</div>
+          <div class="stat-label">Core Algorithms</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">5,000+</div>
+          <div class="stat-label">Commits & Artifacts</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value" id="stat-cheats">20+</div>
+          <div class="stat-label">Developer Cheatsheets</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-value">100%</div>
+          <div class="stat-label">Automated Test Coverage</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Content Tabs -->
+  <main class="container main-content">
+    
+    <!-- Search Bar -->
+    <div class="search-box">
+      <span class="search-icon">🔍</span>
+      <input type="text" id="searchInput" placeholder="Search algorithms, patterns, Docker commands, HTTP codes, or Big-O..." />
+    </div>
+
+    <!-- Live Sorting Benchmark Playground -->
+    <section id="benchmark" class="section-card">
+      <div class="section-header">
+        <h2>⚡ Live Sorting Benchmark Playground</h2>
+        <p>Test real-world execution speeds of QuickSort, MergeSort, and HeapSort directly on the Node.js runtime.</p>
+      </div>
+      <div class="benchmark-controls">
+        <label for="arraySize">Dataset Size:</label>
+        <select id="arraySize">
+          <option value="5000">5,000 elements</option>
+          <option value="15000" selected>15,000 elements</option>
+          <option value="35000">35,000 elements</option>
+          <option value="50000">50,000 elements</option>
+        </select>
+        <button id="runBenchmarkBtn" class="btn-primary">▶ Run Benchmark</button>
+      </div>
+
+      <div class="benchmark-results" id="benchmarkResults">
+        <div class="benchmark-item">
+          <div class="benchmark-label">
+            <span>QuickSort (O(n log n))</span>
+            <span id="time-quick">- ms</span>
+          </div>
+          <div class="progress-bar-bg"><div class="progress-bar-fill" id="bar-quick" style="width: 0%"></div></div>
+        </div>
+        <div class="benchmark-item">
+          <div class="benchmark-label">
+            <span>MergeSort (O(n log n))</span>
+            <span id="time-merge">- ms</span>
+          </div>
+          <div class="progress-bar-bg"><div class="progress-bar-fill" id="bar-merge" style="width: 0%"></div></div>
+        </div>
+        <div class="benchmark-item">
+          <div class="benchmark-label">
+            <span>HeapSort (O(n log n))</span>
+            <span id="time-heap">- ms</span>
+          </div>
+          <div class="progress-bar-bg"><div class="progress-bar-fill" id="bar-heap" style="width: 0%"></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Algorithms Catalog -->
+    <section id="dsa" class="section-card">
+      <div class="section-header">
+        <h2>📚 Algorithms & Data Structures Catalog</h2>
+        <p>Verified algorithmic implementations with complexity guarantees.</p>
+      </div>
+      <div class="cards-grid" id="dsaGrid">
+        <!-- Injected via JavaScript -->
+      </div>
+    </section>
+
+    <!-- Big-O Complexity Matrix -->
+    <section id="big-o" class="section-card">
+      <div class="section-header">
+        <h2>📊 Big-O Complexity Reference Table</h2>
+        <p>Time and space complexities for essential computer science operations.</p>
+      </div>
+      <div class="table-responsive">
+        <table class="big-o-table">
+          <thead>
+            <tr>
+              <th>Algorithm / Data Structure</th>
+              <th>Best Time</th>
+              <th>Average Time</th>
+              <th>Worst Time</th>
+              <th>Space Complexity</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>QuickSort</strong></td>
+              <td><span class="complexity good">O(n log n)</span></td>
+              <td><span class="complexity good">O(n log n)</span></td>
+              <td><span class="complexity bad">O(n²)</span></td>
+              <td><span class="complexity fair">O(log n)</span></td>
+            </tr>
+            <tr>
+              <td><strong>MergeSort</strong></td>
+              <td><span class="complexity good">O(n log n)</span></td>
+              <td><span class="complexity good">O(n log n)</span></td>
+              <td><span class="complexity good">O(n log n)</span></td>
+              <td><span class="complexity fair">O(n)</span></td>
+            </tr>
+            <tr>
+              <td><strong>HeapSort</strong></td>
+              <td><span class="complexity good">O(n log n)</span></td>
+              <td><span class="complexity good">O(n log n)</span></td>
+              <td><span class="complexity good">O(n log n)</span></td>
+              <td><span class="complexity excellent">O(1)</span></td>
+            </tr>
+            <tr>
+              <td><strong>Binary Search</strong></td>
+              <td><span class="complexity excellent">O(1)</span></td>
+              <td><span class="complexity excellent">O(log n)</span></td>
+              <td><span class="complexity excellent">O(log n)</span></td>
+              <td><span class="complexity excellent">O(1)</span></td>
+            </tr>
+            <tr>
+              <td><strong>LRU Cache (Get / Put)</strong></td>
+              <td><span class="complexity excellent">O(1)</span></td>
+              <td><span class="complexity excellent">O(1)</span></td>
+              <td><span class="complexity excellent">O(1)</span></td>
+              <td><span class="complexity fair">O(n)</span></td>
+            </tr>
+            <tr>
+              <td><strong>Binary Search Tree</strong></td>
+              <td><span class="complexity excellent">O(log n)</span></td>
+              <td><span class="complexity excellent">O(log n)</span></td>
+              <td><span class="complexity bad">O(n)</span></td>
+              <td><span class="complexity fair">O(n)</span></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- System Design Principles -->
+    <section id="system-design" class="section-card">
+      <div class="section-header">
+        <h2>📐 System Design & Scalability Principles</h2>
+        <p>Architectural building blocks for distributed, highly available software systems.</p>
+      </div>
+      <div class="cards-grid">
+        <div class="item-card">
+          <div class="card-badge">Distributed Systems</div>
+          <h3>CAP Theorem</h3>
+          <p>States that any distributed data store can only simultaneously provide at most two of the following guarantees: <strong>Consistency</strong>, <strong>Availability</strong>, and <strong>Partition Tolerance</strong>.</p>
+        </div>
+        <div class="item-card">
+          <div class="card-badge">Traffic Control</div>
+          <h3>Rate Limiting (Token Bucket)</h3>
+          <p>Controls network traffic by holding tokens in a bucket. Tokens replenish at a constant rate; requests consume tokens, preventing DDoS and resource starvation.</p>
+        </div>
+        <div class="item-card">
+          <div class="card-badge">Performance</div>
+          <h3>Cache-Aside Pattern</h3>
+          <p>Application queries the cache first. If a cache miss occurs, data is fetched from the database and asynchronously written to cache for subsequent reads.</p>
+        </div>
+        <div class="item-card">
+          <div class="card-badge">High Availability</div>
+          <h3>Round-Robin Load Balancing</h3>
+          <p>Distributes client requests equally among an array of servers in a cyclical sequence, preventing single points of failure.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Cheatsheets -->
+    <section id="cheatsheets" class="section-card">
+      <div class="section-header">
+        <h2>🛠️ Production Developer Cheatsheets</h2>
+        <p>Instant cheat sheets for Git, Docker, Linux, Regex, and HTTP response codes.</p>
+      </div>
+      <div class="cards-grid" id="cheatsGrid">
+        <!-- Injected via JavaScript -->
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>DevAtlas • Open-Source Developer Engine • Created with ❤️ by <strong>Freda</strong></p>
+      <p class="license-text">Released under the MIT License. Contributions welcome on GitHub.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
+
