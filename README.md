@@ -64,7 +64,7 @@ devatlas/
 Clone the repository and inspect the project:
 
 ```bash
-git clone https://github.com/Freda/devatlas.git
+git clone https://github.com/RobsHs/devatlas.git
 cd devatlas
 ```
 
