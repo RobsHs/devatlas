@@ -1,12 +1,12 @@
 {
-  "id": 5388,
+  "id": 5439,
   "topic": "curl-advanced-header-benchmarking",
-  "category": "patterns",
-  "lastUpdated": "2026-09-05T17:01:43.368Z",
+  "category": "sorting",
+  "lastUpdated": "2026-09-05T17:01:43.373Z",
   "bestPractices": [
     "Always sanitize parameters before execution",
     "Monitor latency and throughput metrics under peak loads",
     "Follow standardized Conventional Commits specification"
   ],
-  "revision": 5388
+  "revision": 5439
 }
